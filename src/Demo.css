@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+
+  
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    position: relative;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+
+  
+  .wrapper {
+      display: grid;
+      grid-gap: 1px;
+    
+      grid-template-areas:
+      "header  header  header"
+      "sidebar content content";
+      background-color: #fff;
+      color: rgb(245, 237, 237);
+    }
+  
+  
+  .box {
+    background-color: #fff;
+    color: #0c0b0b;
+    border-radius: 3px;
+
+  }
+  
+  .header,
+  .footer {
+    background-color: #fff;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .aboutpage
+  {
+    padding: 30px;
+    text-align:left;
+    color: black;
+  }
+  
+  .td1{
+    color: darkgray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .anc{
+    color: cornflowerblue;
+    font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p{
+    font-family:sans-serif;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:none;
+    background-color:#fff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(232, 229, 229);
+  }
+  
+  li {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(166, 41, 41);
+  }
+  
+  li a.active {
+    color:black;
+    border-bottom: 1px solid rgb(166, 41, 41);
+    
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 6px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 20vh;
+    width: 40vh;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .container {
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ .rh{
+    float: right;
+
+ } 
+
+ .column1 {
+  float: left;
+  width:40%;
+  margin-bottom: 16px;
+  padding: 0 6px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.column11 {
+  float:right;
+  width:60%;
+  margin-bottom: 10px;
+  padding: 11px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: left;
+}
+
+
+.card11{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  height: 20vh;
+  width:55vh;
+}
+
+.container {
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+.placeholder1{
+  width: 180px;
+  height: 80vh;
+text-align: right;
+background-color:antiquewhite;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  padding-right: 100px;
+  margin-left: 700px;
+
+
+}
+.p1{
+  color:darkgray;
+  font-size: 15px;
+}
+.textbox1
+{
+  text-align: center;
+  width: 45vh;
+  height: 30px;
+  background-color: rgb(247, 243, 243);
+  border: rgb(239, 235, 224);
+  color: rgb(27, 24, 24);
+  text-align: justify;
+  
+}
+.addbutton
+{
+  background-color: rgb(247, 224, 224);
+  border-color: rgb(247, 224, 224);
+  width: 45vh;
+  height: 30px;
+
+}
+.savebutton
+{
+  background-color: rgb(200, 37, 37);
+  border-color: rgb(200, 37, 37);
+  width: 45vh;
+  height: 30px;
+  color: #fff;
+border-radius: 5px;
+}
+.lable1
+{
+  text-align: center;
+  width: 45vh;
+  height: 30px;
+  
+  border: rgb(239, 235, 224);
+  color: rgb(27, 24, 24);
+  text-align: justify;
+  
+}
+
+.wrapper11 {
+  display: grid;
+  grid-gap: 1px;
+
+  grid-template-areas:
+  "header  header  header"
+  "sidebar content content";
+  background-color: #fff;
+  color: rgb(245, 237, 237);
+  
+}
+
+.left{
+  text-align: center;
+}  
