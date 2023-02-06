@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactAssignment/static/css/main.44f760f6.css",
+    "main.js": "/ReactAssignment/static/js/main.cbba1d06.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ReactAssignment/static/js/787.28cb0dcd.chunk.js",
+    "static/media/user1.jpg": "/ReactAssignment/static/media/user1.0ebefdc6bcd83d00ebd2.jpg",
+    "static/media/delete.png": "/ReactAssignment/static/media/delete.083440c60f4180f17039.png",
+    "static/media/oneplus.jpg": "/ReactAssignment/static/media/oneplus.6c143d84992791011ba3.jpg",
+    "static/media/A.T-inks-logo-600-DPI-1-e1545645137933 (1).png": "/ReactAssignment/static/media/A.T-inks-logo-600-DPI-1-e1545645137933 (1).86a3276609af4ebfa6e8.png",
+    "static/media/plusfive.jpg": "/ReactAssignment/static/media/plusfive.ddb00e11b8aacf61c373.jpg",
+    "static/media/breifcase.jpg": "/ReactAssignment/static/media/breifcase.d99f4ae895e539438fec.jpg",
+    "static/media/contact.jpg": "/ReactAssignment/static/media/contact.4bc4059f035e98f300ca.jpg",
+    "index.html": "/ReactAssignment/index.html",
+    "main.44f760f6.css.map": "/ReactAssignment/static/css/main.44f760f6.css.map",
+    "main.cbba1d06.js.map": "/ReactAssignment/static/js/main.cbba1d06.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ReactAssignment/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f760f6.css",
+    "static/js/main.cbba1d06.js"
+  ]
+}
